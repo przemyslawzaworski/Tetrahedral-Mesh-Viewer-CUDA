@@ -1,10 +1,12 @@
-Unstructured Tetrahedral Mesh Viewer.
+#Unstructured Tetrahedral Mesh Viewer.
+
 
 Technologies:
 
 CUDA - Convert mesh data into volume texture (brute force method).
 
 OpenGL - Real time rendering (raymarching).
+
 
 Compile with Visual Studio command line:
 nvcc -o demo.exe demo.cu -lopengl32 -arch=sm_30  user32.lib gdi32.lib
